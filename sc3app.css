@@ -1,0 +1,29 @@
+.one {
+  position: absolute;
+  left: 210px;
+  top: 230px;
+  width: 10px;
+  height: 90px;
+  background: white;
+  transition: transform 3s;
+  transform: translate(0px, 0px);
+}
+
+.zero {
+  position: absolute;
+  left: 270px;
+  top: 230px;
+  width: 30px;
+  height: 70px;
+  border-style: solid;
+  border-color: black;
+  border-width: 10px;
+  transition: transform 3s;
+  transform: translate(0px, 0px);
+}
+
+.text3-1 { position:absolute; z-index:1; width:100px; margin-top:-420px; margin-left:30px; }
+.text3-2 { position:absolute; z-index:1; width:100px; margin-top:-370px; margin-left:30px; }
+.text3-3 { position:absolute; z-index:1; width:100px; margin-top:-320px; margin-left:30px; }
+.text3-4 { position:absolute; z-index:1; width:100px; margin-top:-270px; margin-left:30px; }
+.text3-5 { position:absolute; z-index:1; width:100px; margin-top:-220px; margin-left:30px; }

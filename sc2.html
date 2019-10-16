@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Katie's Media Artifact</title>
+  <meta name="description" content="LMC2400 Media Artifact - Katie Carlson" />
+  <meta name="keywords" content="texting, media, media artifact, McLuhan" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+  <link rel="stylesheet" type="text/css" href="sc2app.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <h1><a href="index.html">Media Artifact <span class="logo_colour">Texting  Simulator</span></a></h1>
+          <h2>Created by Katie Carlson</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <li class="selected"><a href="index.html">Simulator</a></li>
+          <li><a href="scenarios.html">Scenarios</a></li>
+          <li><a href="encoder.html">Encoder</a></li>
+          <li><a href="instructions.html">Instructions</a></li>
+          <li><a href="research.html">Research</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div id="scenario_content" background="#000000">
+      <div class="sidebar">
+        <img src = "style/iphoneDark.jpg" width = "275">
+        <p><img src="style/sc2img1.jpg" class="text2-1" id="text2-1"></p>
+        <p><img src="style/sc2img2.jpg" class="text2-2" id="text2-2"></p>
+        <p><img src="style/sc2img3.jpg" class="text2-3" id="text2-3"></p>
+        <p><img src="style/sc2img4.jpg" class="text2-4" id="text2-4"></p>
+        <p><img src="style/sc2img5.jpg" class="text2-5" id="text2-5"></p>
+      </div>
+      
+      <div id="content">
+        <div id="zeroParent">
+          <script>
+            for (var i = 0; i < 300; i++) {
+              document.write('<div class="zero" id="zero"></div>');
+            }
+          </script>
+        </div>
+        <div id="oneParent">
+          <script>
+            for (var i = 0; i < 300; i++) {
+              document.write('<div class="one" id="one"></div>');
+            }
+          </script>
+        </div>
+        <script src="sc2app.js"></script>
+      </div>
+      
+    </div>
+    <!--<div id="footer">
+      <p><a href="index.html">Home</a> | <a href="examples.html">Examples</a> | <a href="page.html">A Page</a> | <a href="another_page.html">Another Page</a> | <a href="contact.html">Contact Us</a></p>
+      <p>Copyright &copy; night_sky_2 | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">Website templates</a></p>
+    </div>-->
+  </div>
+</body>
+</html>

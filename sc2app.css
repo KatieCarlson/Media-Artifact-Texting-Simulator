@@ -1,0 +1,29 @@
+.one {
+  position: absolute;
+  left: 210px;
+  top: 230px;
+  width: 10px;
+  height: 90px;
+  background: white;
+  transition: transform 3s;
+  transform: translate(0px, 0px);
+}
+
+.zero {
+  position: absolute;
+  left: 270px;
+  top: 230px;
+  width: 30px;
+  height: 70px;
+  border-style: solid;
+  border-color: black;
+  border-width: 10px;
+  transition: transform 3s;
+  transform: translate(0px, 0px);
+}
+
+.text2-1 { position:absolute; z-index:1; width:240px; margin-top:-441px; margin-left:15px; }
+.text2-2 { position:absolute; z-index:1; width:240px; margin-top:-415px; margin-left:22px; }
+.text2-3 { position:absolute; z-index:1; width:200px; margin-top:-385px; margin-left:20px; }
+.text2-4 { position:absolute; z-index:1; width:200px; margin-top:-355px; margin-left:62px; }
+.text2-5 { position:absolute; z-index:1; width:200px; margin-top:-250px; margin-left:15px; }

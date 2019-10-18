@@ -22,8 +22,9 @@
   transform: translate(0px, 0px);
 }
 
-.text4-1 { position:absolute; z-index:1; width:100px; margin-top:-420px; margin-left:30px; }
-.text4-2 { position:absolute; z-index:1; width:100px; margin-top:-370px; margin-left:30px; }
-.text4-3 { position:absolute; z-index:1; width:100px; margin-top:-320px; margin-left:30px; }
-.text4-4 { position:absolute; z-index:1; width:100px; margin-top:-270px; margin-left:30px; }
-.text4-5 { position:absolute; z-index:1; width:100px; margin-top:-220px; margin-left:30px; }
+.text4-1 { position:absolute; z-index:1; width:200px; margin-top:-440px; margin-left:60px; }
+.text4-2 { position:absolute; z-index:1; width:200px; margin-top:-415px; margin-left:15px; }
+.text4-3 { position:absolute; z-index:1; width:200px; margin-top:-390px; margin-left:60px; }
+.text4-4 { position:absolute; z-index:1; width:160px; margin-top:-364px; margin-left:15px; }
+.text4-5 { position:absolute; z-index:1; width:200px; margin-top:-343px; margin-left:60px; }
+.text4-6 { position:absolute; z-index:1; width:200px; margin-top:-332px; margin-left:15px; }
